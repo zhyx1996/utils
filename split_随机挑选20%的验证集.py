@@ -6,6 +6,7 @@ from tqdm import tqdm
 """
 标注文件是yolo格式（txt文件）
 训练集：验证集 （8：2） 
+（不如直接用splitfolders）
 """
 
 
@@ -71,3 +72,4 @@ if __name__ == '__main__':
     label_path = 'all/labels'
     split_list = [0.8, 0.2]  # 数据集划分比例[train:val]
     split_img(img_path, label_path, split_list)
+
