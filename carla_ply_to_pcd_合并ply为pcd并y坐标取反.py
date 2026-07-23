@@ -2,9 +2,7 @@
 
 The output uses the standard PCD ``DATA binary`` representation and needs no
 third-party Python packages.
-"""
 
-"""
 直接运行：
 sensor_lidar_top -> 合并-右手系.pcd
 也可以指定输入和输出：
